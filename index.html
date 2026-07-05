@@ -144,23 +144,31 @@
         </div>
     </section>
 
-    <footer id="contato">
-        <h2>Contato</h2>
-        <p>Email: <a href="mailto:prefel.eletrica@gmail.com">prefel.eletrica@gmail.com</a> | 
-            WhatsApp: <a href="https://wa.me/5548998251997" target="_blank">(48) 99825-1997</a>
+    <footer id="contato" style="text-align: center; padding: 40px; background-color: #f8f9fa;">
+    <h2 style="margin-bottom: 20px;">Entre em Contato</h2>
+    
+    <div style="font-size: 1.25rem; font-weight: 500; margin-bottom: 20px;">
+        <p style="margin: 10px 0;">
+            📧 Email: <a href="mailto:prefel.eletrica@gmail.com" style="color: #2c3e50; text-decoration: none;">prefel.eletrica@gmail.com</a>
         </p>
-        <hr> 
-        <p>&copy; 2026 Prefel Instalações Elétricas. Todos os direitos reservados.</p>
-    </footer>
+        <p style="margin: 10px 0;">
+            📱 WhatsApp: <a href="https://wa.me/5548998251997" target="_blank" style="color: #25d366; font-weight: bold; text-decoration: none;">(48) 99825-1997</a>
+        </p>
+    </div>
 
-    <!-- ESTRUTURA DO JANELÃO DE ZOOM (MODAL) -->
-    <div id="imageModal" class="modal">
+    <hr style="max-width: 600px; border: 0; border-top: 1px solid #ccc; margin: 20px auto;">
+    
+    <p style="font-size: 0.9rem; color: #777;">
+        &copy; 2026 Prefel Instalações Elétricas. Todos os direitos reservados.
+    </p>
+</footer>
+
+        <div id="imageModal" class="modal">
         <span class="close" id="closeModal">&times;</span>
         <img class="modal-content" id="imgExpanded">
     </div>
 
-    <!-- LOGICA EM JAVASCRIPT PARA FAZER O CLIQUE FUNCIONAR -->
-    <script>
+        <script>
         var modal = document.getElementById("imageModal");
         var modalImg = document.getElementById("imgExpanded");
         var closeBtn = document.getElementById("closeModal");
